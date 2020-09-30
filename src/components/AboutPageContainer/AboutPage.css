@@ -1,0 +1,40 @@
+.about-container {
+    height: 100vh;
+    width: 100vw;
+}
+
+.about-shaped {
+    float: left;
+    height:100vh;
+    width:50vw;
+    shape-margin: 20px;
+    clip-path:polygon(0 100%, 70% 100%, 100% 0, 0 0); 
+    background: black url(https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2014/6/6/1402062025834/64311b91-2dfe-447c-a741-e577f60b3836-2060x1371.jpeg?width=1920&quality=85&auto=format&fit=max&s=3150a6df5b449bb912c1846aef87470e) center top no-repeat;
+    background-size:cover;
+}
+
+.about-header { 
+    font-family: 'Open Sans';
+    font-size: 40px;
+    padding-top: 200px; 
+}
+
+.title-under { 
+    margin-left: 780px;
+    height: 0.25rem; 
+    width: 12rem; 
+    background: rgb(107, 172, 46)
+}
+
+.about-paragraph { 
+    width: 600px; 
+    height: 90px; 
+    padding-top: 25px;
+    margin-left: 700px; 
+    font-size: 15px; 
+    font-family: 'Open Sans'
+}
+
+.paragraph-style { 
+    line-height: 2.3em;
+}
