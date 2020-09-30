@@ -1,0 +1,18 @@
+.error-body { 
+    background: black url(https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2014/6/6/1402060850371/f1810351-7d0c-4d32-8f55-c7cdc94ec645-2060x1364.jpeg?width=1920&quality=85&auto=format&fit=max&s=8ae7457ad490415fd338b801ef44c84d) center top no-repeat;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    margin: 0; 
+    overflow: hidden; 
+    font-family: 'Open Sans', sans-serif;
+    /* padding-top: 100px; */
+}
+
+h1 { 
+    position: relative;
+    /* bottom: 40px */
+}
+
