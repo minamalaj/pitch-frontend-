@@ -16,7 +16,6 @@ const fetchGetWithToken = (path, method = "get") => {
     });
 };
 
-
 const deletePitchWithToken = pitch => {
   const configObj = {
     method: "DELETE",
