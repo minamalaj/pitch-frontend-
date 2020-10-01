@@ -2,9 +2,9 @@ import React from 'react'
 import {Grid} from 'semantic-ui-react'
 import {GiStreetLight} from 'react-icons/gi'
 import {RiParkingBoxLine} from "react-icons/ri"
-import './ShapeTwo.scss'
+import './PitchCard.scss'
 
-const PitchCardShape = props => { 
+const PitchCard = props => { 
     const pitch = props.pitch 
 
     return (
@@ -56,5 +56,5 @@ const PitchCardShape = props => {
 
 }
 
-export default PitchCardShape; 
+export default PitchCard; 
 
