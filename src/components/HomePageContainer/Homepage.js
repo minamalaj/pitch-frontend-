@@ -1,9 +1,9 @@
 import React from 'react'; 
 import {Grid} from 'semantic-ui-react'
 import PitchCard from './PitchCard';
-import NavBar from './components/NavBarContainer/NavBar'
+import NavBar from '../NavBarContainer/NavBar'
 import FilterSideBar from './FilterSideBar';
-import API from "../API.js"
+import API from '../..//API'
 import './HomeBrowseBtn.scss'
 
 const pitchesURL = "http://localhost:3000/pitches"
@@ -51,7 +51,7 @@ class Homepage extends React.Component {
        
         return ( 
             <>
-              <NewNav />
+              <NavBar />
                 <Grid divided='vertically'>
                     <Grid.Row centered columns={1}>
                         <div className="map">

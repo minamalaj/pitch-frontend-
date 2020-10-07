@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import PreHome from './components/WelcomePageContainer/PreHome'
 import AboutPage from './components/AboutPageContainer/AboutPage'
 import PitchProposalForm from "./components/PitchProposalContainer/PitchProposalForm";
-import Homepage from "./MapContainer/Homepage";
+import Homepage from "./components/HomePageContainer/Homepage";
 import AdminDashboardContainer from "./components/AdminPageContainer/AdminDashboardContainer";
 import Error from "./components/ErrorPageContainer/Error";
 import "./App.css";

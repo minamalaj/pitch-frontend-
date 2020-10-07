@@ -1,10 +1,10 @@
 import React from 'react'; 
-import NavBar from '../NavBar'
+import NavBar from '../NavBarContainer/NavBar'
 import MapForm from './MapForm'
 import { Header, Button, Form, Modal, Input, Radio, Grid, Icon, Popup  } from 'semantic-ui-react'
 import {TimeInput} from 'semantic-ui-calendar-react';
 import API from '../../API';
-import './Shape.scss'
+import './FormShape.scss'
 
 const siteSuggestionURL = "http://localhost:3000/suggest-site"
 
@@ -100,7 +100,7 @@ class PitchProposalForm extends React.Component {
 
         return ( 
             <>
-              <NewNav />
+              <NavBar />
                 <Grid divided='vertically'>
                 <Grid.Row centered columns={1}>
                     <div className="map-suggest">

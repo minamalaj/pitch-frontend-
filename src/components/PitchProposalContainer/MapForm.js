@@ -1,8 +1,8 @@
 import React from 'react'
-import { withGoogleMap, GoogleMap, withScriptjs, InfoWindow, Marker } from 'react-google-maps';
+import { withGoogleMap, GoogleMap, withScriptjs, Marker } from 'react-google-maps';
 import Autocomplete from 'react-google-autocomplete';
 import Geocode from 'react-geocode';
-import mapIcon from '../../images/pitchthree.png'
+import mapIcon from '../Images/pitchone.png'
 import mapStyle from '../../mapStyle';
 
 Geocode.setApiKey(process.env.REACT_APP_GOOGLE_MAPS_API_KEY);
@@ -82,8 +82,7 @@ class MapForm extends React.Component{
  onMarkerDragEnd = event => {
 //   console.log( 'event', event );
   let newLat = event.latLng.lat(),
-   newLng = event.latLng.lng(),
-   addressArray = [];
+   newLng = event.latLng.lng()
 
    Geocode.fromLatLng( newLat , newLng ).then(
    response => {
